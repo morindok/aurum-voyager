@@ -16,6 +16,7 @@
 - **One wallet (Owner amendment):** all settlements target the Owner-designated **USDT-TRC20** wallet (config-set by the Owner, never hardcoded); receipts verify on-chain before the Ledger moves.
 - **The Commander is a person, not a process (Owner amendment):** one reserved key powers him permanently (expeditions may never consume it); he answers only from live registry reads; chat orders become real missions in the same thread.
 - **Pre-defined identities (Owner amendment):** real own-domain mailboxes only; platform accounts registered, verified, and login-tested *before* expeditions need them; starting an expedition on an un-pre-defined platform is prohibited.
+- **The Three Field Fixes (Owner-reported):** (1) models list **per key, from that key alone**, grouped with per-key status, selected as *(key, model)* pairs — never a merged list, never another key's models on error; (2) the Commander generates **live from the Owner's set models only**, streams, and carries provenance (model, key cell, latency, tokens) — canned/template answers are prohibited, failover to another *set* model must be disclosed; (3) **real money or zero** — production rails only, production database starts empty of financial records, test-mode figures are TEST-badged and never summed or briefed as revenue, and every revenue row must open to an artifact the Owner can verify himself (platform record / on-chain hash).
 - **The Refresh Law (Owner amendment):** selected models per key, full Commander chat history, the USDT-TRC20 wallet address, sessions, missions, ledger, posteriors — everything persists server-side (database/vault), never browser-only. If a refresh, restart, or redeploy loses it, the build is defective. Verify with the Refresh & Restart Drill (BUILD_SPEC Section 16, Test 10).
 - **No GitHub dependency (Owner amendment):** never connect to or depend on the Owner's GitHub. All Legion code lives in the **Internal Forge** (self-hosted git + internal CI, BUILD_SPEC Section 8.5). External mirroring only on the Owner's explicit per-case order.
 
@@ -26,4 +27,4 @@
 - Stalls trigger Section 9 automatically — from the ledger, not from someone noticing.
 
 ## Definition of done
-All ten Operational Acceptance Tests (BUILD_SPEC Section 16) pass live — including 7 consecutive days of un-pushed permanent operation. Anything less is a State number, honestly reported.
+All thirteen Operational Acceptance Tests (BUILD_SPEC Section 16) pass live — including 7 consecutive days of un-pushed permanent operation. Anything less is a State number, honestly reported.
